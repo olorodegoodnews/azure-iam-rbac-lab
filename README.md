@@ -110,3 +110,67 @@ The **Developers** security group was successfully assigned the **Contributor** 
 ### Screenshot
 
 ![](04-rbac-role-assignment.png.png)
+
+
+
+## Step 5 – Verify Azure RBAC Role Assignment
+
+### Objective
+
+The final step was to verify that the Azure RBAC role assignment was successfully applied to the **Developers** security group.
+
+### Verification
+
+The **Developers** group appears in the Resource Group's **Role assignments** with the **Contributor** role.
+
+### Why?
+
+Verifying role assignments ensures that Azure RBAC has been configured correctly and that members of the security group inherit the expected permissions.
+
+### Result
+
+The **Developers** security group successfully inherited the **Contributor** role at the Resource Group scope, confirming that the RBAC configuration is functioning as intended.
+
+### Screenshot
+
+![](05-role-verification.png.png)
+
+
+
+## Step 6 – Resource Cleanup
+
+### Objective
+
+Delete Azure resources that are no longer required after completing the lab.
+
+### Why?
+
+Removing unused resources helps prevent unnecessary costs and keeps the Azure subscription organized.
+
+### Result
+
+The Resource Group can be deleted after the lab is completed, which also removes all resources contained within it.
+
+
+
+
+## Project Summary
+
+In this lab, I demonstrated how to manage identities and control access to Azure resources using Microsoft Entra ID and Azure Role-Based Access Control (RBAC).
+
+### Skills Demonstrated
+
+- Resource Group Management
+- Microsoft Entra ID User Management
+- Security Group Management
+- Azure Role-Based Access Control (RBAC)
+- Access Management
+- Principle of Least Privilege
+
+### Key Takeaways
+
+- Microsoft Entra ID manages identities.
+- Azure RBAC controls access to Azure resources.
+- Security Groups simplify permission management.
+- Assigning permissions to groups is more scalable than assigning permissions to individual users.
+- Verifying role assignments ensures the correct permissions are applied.
