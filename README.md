@@ -50,4 +50,4 @@ Three users were successfully created in Microsoft Entra ID and are ready to be 
 
 ### Screenshot
 
-![](02-microsoft-entra-users.png)
+![](02-microsoft-entra-users.png.png)
