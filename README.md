@@ -82,3 +82,31 @@ A Security Group named **Developers** was successfully created, and Sarah Develo
 ### Screenshot
 
 ![](03-developers-group.png.png)
+
+
+
+## Step 4 – Assign Azure RBAC Role
+
+### Objective
+
+Assign the **Contributor** role to the **Developers** security group at the Resource Group scope.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| Scope | IAM-RBAC-Lab-RG |
+| Role | Contributor |
+| Principal | Developers (Security Group) |
+
+### Why?
+
+Azure RBAC provides fine-grained access management for Azure resources. Assigning permissions to a security group instead of individual users simplifies administration and ensures that all group members inherit the appropriate permissions.
+
+### Result
+
+The **Developers** security group was successfully assigned the **Contributor** role for the Resource Group. Members of the group can now create, modify, and manage resources within the Resource Group, but they cannot grant permissions to others.
+
+### Screenshot
+
+![](04-rbac-role-assignment.png.png)
