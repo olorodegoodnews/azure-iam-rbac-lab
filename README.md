@@ -23,3 +23,31 @@ The Resource Group was successfully deployed and is ready to host all resources 
 ### Screenshot
 
 ![](01-resource-group-created.png.png).
+
+
+
+## Step 2 – Create Microsoft Entra ID Users
+
+### Objective
+
+The goal of this step was to create test users in Microsoft Entra ID to simulate employees in an organization. These users will later be assigned to security groups and Azure RBAC roles.
+
+### Users Created
+
+| Display Name | Role |
+|--------------|------|
+| John Admin | Administrator |
+| Sarah Developer | Developer |
+| Michael HelpDesk | Help Desk |
+
+### Why?
+
+Microsoft Entra ID stores and manages user identities in Azure. Creating separate users allows administrators to assign permissions based on job responsibilities instead of granting everyone the same level of access.
+
+### Result
+
+Three users were successfully created in Microsoft Entra ID and are ready to be assigned to security groups and Azure RBAC roles.
+
+### Screenshot
+
+![](02-microsoft-entra-users.png)
