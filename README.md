@@ -51,3 +51,34 @@ Three users were successfully created in Microsoft Entra ID and are ready to be 
 ### Screenshot
 
 ![](02-microsoft-entra-users.png.png)
+
+
+## Step 3 – Create a Security Group
+
+### Objective
+
+The goal of this step was to create a Security Group in Microsoft Entra ID to simplify access management.
+
+### Group Details
+
+| Setting | Value |
+|---------|-------|
+| Group Name | Developers |
+| Group Type | Security |
+| Membership Type | Assigned |
+
+### Member Added
+
+- Sarah Developer
+
+### Why?
+
+Security Groups allow administrators to assign Azure RBAC permissions to a group instead of individual users. This simplifies management and ensures consistent access for users performing similar job functions.
+
+### Result
+
+A Security Group named **Developers** was successfully created, and Sarah Developer was added as a member.
+
+### Screenshot
+
+![](03-developers-group.png.png)
